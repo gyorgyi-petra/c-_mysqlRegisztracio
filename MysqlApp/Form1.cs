@@ -26,13 +26,14 @@ namespace MysqlApp
             DateTime regdatum = szuletesiido.Value;
 
             using (var conn = new MySqlConnection("Server=localhost;Database=regisztracio;UID=root;Pwd=")) {
-                var command = conn.CreateCommand();
+                conn.Open();
 
+                var command = conn.CreateCommand();
                 command.CommandText = "insert into felhasznalo (nev, jelszo, regdatum) values (@nev,@jelszo,@regdatum)";
                 command.Parameters.AddWithValue("@nev", nev);
                 command.Parameters.AddWithValue("@jelszo", jelszo);
                 command.Parameters.AddWithValue("@regdatum", regdatum);
-                command.ExecuteNonQuery();
+                int erintettsorok = command.ExecuteNonQuery();
 
 
             }
