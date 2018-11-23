@@ -28,6 +28,18 @@ namespace MysqlApp
             using (var conn = new MySqlConnection("Server=localhost;Database=regisztracio;UID=root;Pwd=")) {
                 conn.Open();
 
+                var ellenorzes = conn.CreateCommand();
+                ellenorzes.CommandText = "select count(*) from felhasznalo where nev = @nev";
+                ellenorzes.Parameters.AddWithValue("@nev", nev);
+                var darab = (long) ellenorzes.ExecuteScalar();
+
+                if (darab != 0) {
+                    MessageBox.Show("Ez a felhasznalonev mar szerepel!");
+                    return;
+
+                }
+
+
                 var command = conn.CreateCommand();
                 command.CommandText = "insert into felhasznalo (nev, jelszo, regdatum) values (@nev,@jelszo,@regdatum)";
                 command.Parameters.AddWithValue("@nev", nev);
