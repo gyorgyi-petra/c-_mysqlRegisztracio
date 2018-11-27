@@ -1,0 +1,5 @@
+D:\Users\Petraa\Downloads\c-_mysqlRegisztracio-master\c-_mysqlRegisztracio-master\MysqlApp\obj\Debug\MysqlApp.csprojAssemblyReference.cache
+D:\Users\Petraa\Downloads\c-_mysqlRegisztracio-master\c-_mysqlRegisztracio-master\MysqlApp\obj\Debug\MysqlApp.Form1.resources
+D:\Users\Petraa\Downloads\c-_mysqlRegisztracio-master\c-_mysqlRegisztracio-master\MysqlApp\obj\Debug\MysqlApp.Properties.Resources.resources
+D:\Users\Petraa\Downloads\c-_mysqlRegisztracio-master\c-_mysqlRegisztracio-master\MysqlApp\obj\Debug\MysqlApp.csproj.GenerateResource.cache
+D:\Users\Petraa\Downloads\c-_mysqlRegisztracio-master\c-_mysqlRegisztracio-master\MysqlApp\obj\Debug\MysqlApp.csproj.CoreCompileInputs.cache

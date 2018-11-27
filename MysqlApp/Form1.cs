@@ -51,5 +51,51 @@ namespace MysqlApp
             }
 
         }
+
+         private void delButton_Click(object sender, EventArgs e){
+
+            string nev = nev_form.Text;
+            string jelszo = jelszo_form.Text;
+            DateTime regdatum = szuletesiido.Value;
+
+            using (var conn = new MySqlConnection("Server=localhost;Database=regisztracio;UID=root;Pwd=")) {
+                conn.Open();
+
+           
+
+
+                var torles_command = conn.CreateCommand();
+                torles_command.CommandText = "delete from felhasznalo where nev = @nev";
+                torles_command.Parameters.AddWithValue("@nev", nev);
+                int erintettsorok = torles_command.ExecuteNonQuery();
+
+
+            }
+
+            }
+             private void updateButton_Click(object sender, EventArgs e){
+
+             string nev = nev_form.Text;
+            string jelszo = jelszo_form.Text;
+            DateTime regdatum = szuletesiido.Value;
+
+            using (var conn = new MySqlConnection("Server=localhost;Database=regisztracio;UID=root;Pwd=")) {
+                conn.Open();
+
+           
+
+
+                var command = conn.CreateCommand();
+                command.CommandText = "update felhasznalo set nev = @nev, jelszo = @jelszo , regdatum = @regdatum where nev = @nev";
+                command.Parameters.AddWithValue("@nev", nev);
+                int erintettsorok = command.ExecuteNonQuery();
+
+
+            }
     }
 }
+
+
+
+    }
+
