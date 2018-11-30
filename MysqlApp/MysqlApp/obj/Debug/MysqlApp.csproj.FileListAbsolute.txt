@@ -1,0 +1,13 @@
+D:\PROGRAMMING\UNKNOWN\MysqlApp\MysqlApp\bin\Debug\MysqlApp.exe.config
+D:\PROGRAMMING\UNKNOWN\MysqlApp\MysqlApp\bin\Debug\MysqlApp.exe
+D:\PROGRAMMING\UNKNOWN\MysqlApp\MysqlApp\bin\Debug\MysqlApp.pdb
+D:\PROGRAMMING\UNKNOWN\MysqlApp\MysqlApp\obj\Debug\MysqlApp.csprojResolveAssemblyReference.cache
+D:\PROGRAMMING\UNKNOWN\MysqlApp\MysqlApp\obj\Debug\MysqlApp.Form1.resources
+D:\PROGRAMMING\UNKNOWN\MysqlApp\MysqlApp\obj\Debug\MysqlApp.Properties.Resources.resources
+D:\PROGRAMMING\UNKNOWN\MysqlApp\MysqlApp\obj\Debug\MysqlApp.csproj.GenerateResource.Cache
+D:\PROGRAMMING\UNKNOWN\MysqlApp\MysqlApp\obj\Debug\MysqlApp.exe
+D:\PROGRAMMING\UNKNOWN\MysqlApp\MysqlApp\obj\Debug\MysqlApp.pdb
+D:\PROGRAMMING\UNKNOWN\MysqlApp\MysqlApp\bin\Debug\Google.Protobuf.dll
+D:\PROGRAMMING\UNKNOWN\MysqlApp\MysqlApp\bin\Debug\MySql.Data.dll
+D:\PROGRAMMING\UNKNOWN\MysqlApp\MysqlApp\bin\Debug\Google.Protobuf.xml
+D:\PROGRAMMING\UNKNOWN\MysqlApp\MysqlApp\bin\Debug\MySql.Data.xml
